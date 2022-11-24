@@ -111,7 +111,7 @@ def eda_endpoint(endpoints):
        
        print(graph_1)
        plt.hist(df[graph_1])
-       plt.savefig(r"D:\BK dev\digitech\DigitechPortal\digiverz\src\assests\histgh2.png")
+       plt.savefig(r"E:\DIgiVerz-main\src\assests\histgh2.png")
        plt.clf()
 
 
@@ -130,7 +130,7 @@ def eda_endpoint(endpoints):
        
        graph_2 = _req['graph_2']
        plt.scatter(df.index,df[graph_2])
-       plt.savefig(r"D:\BK dev\digitech\DigitechPortal\digiverz\src\assests\scatarh2.png")
+       plt.savefig(r"E:\DIgiVerz-main\src\assests\scatarh2.png")
        plt.clf()
 
        df = pd.read_pickle("./dummy.pkl")
@@ -151,7 +151,7 @@ def eda_endpoint(endpoints):
        graph_3 = _req['graph_3']
        sns.set(rc={'figure.figsize':(5,5)})
        sns.kdeplot(df[graph_3],shade = True)
-       plt.savefig(r"D:\BK dev\digitech\DigitechPortal\digiverz\src\assests\graph3.png")
+       plt.savefig(r"E:\DIgiVerz-main\src\assests\graph3.png")
        plt.clf()
 
        df = pd.read_pickle("./dummy.pkl")
@@ -171,7 +171,7 @@ def eda_endpoint(endpoints):
        graph_4 = _req['graph_4']
        graph_4_1 = _req['graph_4_1']
        sns.boxplot(x=graph_4,y=graph_4_1,data=df,palette='rainbow')
-       plt.savefig(r"D:\BK dev\digitech\DigitechPortal\digiverz\src\assests\graph4.png")
+       plt.savefig(r"E:\DIgiVerz-main\src\assests\graph4.png")
        plt.clf()
 
        df = pd.read_pickle("./dummy.pkl")
@@ -191,7 +191,7 @@ def eda_endpoint(endpoints):
        graph_5 = _req['graph_5']
        graph_5_1 = _req['graph_5_1']
        sns.stripplot(x=graph_5,y=graph_5_1,data=df,palette='rainbow')
-       plt.savefig(r"D:\BK dev\digitech\DigitechPortal\digiverz\src\assests\graph5.png")
+       plt.savefig(r"E:\DIgiVerz-main\src\assests\graph5.png")
        plt.clf()
 
        df = pd.read_pickle("./dummy.pkl")
@@ -212,7 +212,7 @@ def eda_endpoint(endpoints):
        graph_6_1 = _req['graph_6_1']
        sns.violinplot(x=graph_6,y=graph_6_1,data=df,palette='rainbow')
        
-       plt.savefig(r"D:\BK dev\digitech\DigitechPortal\digiverz\src\assests\graph6.png")
+       plt.savefig(r"E:\DIgiVerz-main\src\assests\graph6.png")
        plt.clf()
 
        df = pd.read_pickle("./dummy.pkl")
@@ -233,7 +233,7 @@ def eda_endpoint(endpoints):
        graph_7_1 = _req['graph_7_1']
        sns.swarmplot(x=graph_7,y=graph_7_1,data=df,palette='rainbow')
        
-       plt.savefig(r"D:\BK dev\digitech\DigitechPortal\digiverz\src\assests\graph7.png")
+       plt.savefig(r"E:\DIgiVerz-main\src\assests\graph7.png")
        plt.clf()
 
        df = pd.read_pickle("./dummy.pkl")
@@ -254,7 +254,7 @@ def eda_endpoint(endpoints):
        
        sns.countplot(x=graph_8,data=df)
        
-       plt.savefig(r"D:\BK dev\digitech\DigitechPortal\digiverz\src\assests\graph8.png")
+       plt.savefig(r"E:\DIgiVerz-main\src\assests\graph8.png")
        plt.clf()
 
        df = pd.read_pickle("./dummy.pkl")
