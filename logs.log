@@ -6188,3 +6188,13 @@ https://scikit-learn.org/stable/model_persistence.html#security-maintainability-
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2022-11-24 10:26:10,752:WARNING:
 'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2022-11-24 12:02:58,027:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-11-24 12:02:58,028:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-11-24 12:02:58,028:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-11-24 12:02:58,028:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-11-24 12:02:58,826:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
